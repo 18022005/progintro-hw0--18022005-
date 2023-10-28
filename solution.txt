@@ -3,3 +3,4 @@ progintro-hw0--18022005-
 
   cat solution.txt
 bandit0:bandit0
+bandit1:NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL
