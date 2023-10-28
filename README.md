@@ -12,3 +12,9 @@ ls για να δω τα directories,
 cd inhere 
 find για να βρει αρχεια στο directory
  cat ./.hidden 
+(bandit4 to bandit5)
+ls ωστε να δω directories
+cd inhere
+ls για να δω τα αρχεια που βρισκονται μεσα στο inhere
+file./*  για να παρουμε περισσοτερες πληροφοριες για τα files 
+cat ./-file07
