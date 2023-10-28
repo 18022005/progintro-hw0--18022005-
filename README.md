@@ -8,3 +8,7 @@ ls για να δω το αρχειο -
 ls για να δω τα αρχεια
 cat "spaces in this filename"
 (bandit3 to bandit4)
+ls για να δω τα directories,
+cd inhere 
+find για να βρει αρχεια στο directory
+ cat ./.hidden 
