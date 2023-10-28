@@ -4,3 +4,7 @@ cat readme ωστε να μας εμφανησει τον κωδικο που χ
 (bandit1 to bandit2)
 ls για να δω το αρχειο - 
 μετα cat ./- για να δω τον κωδικο 
+(bandit2 to bandit3)
+ls για να δω τα αρχεια
+cat "spaces in this filename"
+(bandit3 to bandit4)
