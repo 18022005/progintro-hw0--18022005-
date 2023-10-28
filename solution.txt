@@ -1,2 +1,5 @@
 https://18022005.github.io/progintro-hw0--18022005-/
 progintro-hw0--18022005-
+
+  cat solution.txt
+bandit0:bandit0
