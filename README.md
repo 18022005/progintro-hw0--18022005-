@@ -28,4 +28,6 @@ find /  -size 33c -group bandit6 -user bandit7
 ls για να δω τα directories, cat data.txt ομως επειδη εχει πολλα δεδομενα και για να μην ψαχνουμε μεσα σε αυτα παταμε την εντολη grep millionth data.txt
 (bandit8 to bandit9)
 ls για να δω τα directories,sort data.txt και ψαχνω να βρω ποιος απο ολους τους κωδικους εχει επαναληυθει μια μονο φορα 
+(bandit9 to bandit10)
+ls, strings data.txt, strings data.txt | grep -E "=+"
 
