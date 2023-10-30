@@ -25,4 +25,5 @@ find -readable -size 1033c ! -executable   οπου -readable για human-reada
 (bandit6 to bandit7)
 find /  -size 33c -group bandit6 -user bandit7
 (bandit7 to bandit8)
+ls για να δω τα directories, cat data.txt ομως επειδη εχει πολλα δεδομενα και για να μην ψαχνουμε μεσα σε αυτα παταμε την εντολη grep millionth data.txt
 
