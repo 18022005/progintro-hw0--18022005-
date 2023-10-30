@@ -26,4 +26,6 @@ find -readable -size 1033c ! -executable   οπου -readable για human-reada
 find /  -size 33c -group bandit6 -user bandit7
 (bandit7 to bandit8)
 ls για να δω τα directories, cat data.txt ομως επειδη εχει πολλα δεδομενα και για να μην ψαχνουμε μεσα σε αυτα παταμε την εντολη grep millionth data.txt
+(bandit8 to bandit9)
+ls για να δω τα directories,sort data.txt και ψαχνω να βρω ποιος απο ολους τους κωδικους εχει επαναληυθει μια μονο φορα 
 
