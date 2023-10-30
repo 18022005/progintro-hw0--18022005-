@@ -30,4 +30,6 @@ ls για να δω τα directories, cat data.txt ομως επειδη εχε�
 ls για να δω τα directories,sort data.txt και ψαχνω να βρω ποιος απο ολους τους κωδικους εχει επαναληυθει μια μονο φορα 
 (bandit9 to bandit10)
 ls, strings data.txt, strings data.txt | grep -E "=+"
+(bandit10 to bandit11)
+ls,base64 -d data.txt
 
