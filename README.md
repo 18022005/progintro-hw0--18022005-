@@ -23,4 +23,6 @@ ls να δω τα directories
 cd inhere
 find -readable -size 1033c ! -executable   οπου -readable για human-readale -size 1033c για την χωριτηκοτητα και το c για τα bytes και ! -executable για το not executable.Επειτα μας εβαγλε ενα αρχειο με αυτα τα στοιχεια το ./maybehere07/.file2 αρα cat ./maybehere07/.file2 ωστε να δουμε τα περιεχομενα του.
 (bandit6 to bandit7)
+find /  -size 33c -group bandit6 -user bandit7
+(bandit7 to bandit8)
 
