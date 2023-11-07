@@ -1,35 +1,43 @@
 
-#include <stdio.h>
+#include<stdio.h>
+#include <stdlib.h>
+
  
+ int collatz(int n) {
+    int steps = 0;
 
- int collatz( long long  number ){
-      int steps = 0;
-       if (number <= 0 ){
-          printf("Error(0)\n " );  // αν ο αριθμοσ αρνητικοσ ή μηδεν τυπωσε Error(0)
-    }
-    else{
-     while( number !=1){        
-         if (number % 2 == 0){    // αν ο αριθμος ειναι αρτιος τοτε number / 2
-          number = number / 2;
-
+    while (n != 1) {
+        if (n % 2 == 0) {
+            n = n / 2;
+        } else {
+            n = 3 * n + 1;
         }
-     else { number = 3 * number + 1;  // αν ο αριθμος ειναι περριτος τοτε number*3 +1
-    } 
-      steps++;}
+        steps++;
     }
-     return steps;
 
- } 
-   
+    return steps;
+ }
+  int main(int argc, char *argv[]){
+  
+  int lowest_number =  atoi(argv[1]);
+  int highest_number = atoi(argv[2]);
 
-   int main() {
-    long long highest_number = 100000000;    // μεγαλυτερο οριο
-    long long lowest_number = -100000000;    // μικροτερο οριο
+  int max_steps = 0;
+    int current_num;
+    if (lowest_number > -100000000 , lowest_number<= 0 || highest_number > 100000000 ){
+        return 0;
+    }
 
-    for (long long i = lowest_number; i <= highest_number; i++) {
+    for (int i = lowest_number; i <= highest_number; i++) {
         int steps = collatz(i);
-        printf("Collatz(%lld) = %d steps\n", i, steps);    // τυπωσε για καθε αριθμο απο το [-100000000,100000000] τα βηματα που κανει μεχρι να φτασει στο 1
+        if (steps > max_steps) {
+            max_steps = steps;
+            current_num = i;
+        }
     }
+
+    printf("Ο αριθμός με το μεγαλύτερο αριθμό βημάτων Collatz ανάμεσα στους %d και %d είναι %d με %d βήματα.\n", lowest_number, highest_number, current_num, max_steps);
 
     return 0;
 }
+
