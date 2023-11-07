@@ -29,13 +29,13 @@
     for(int i = lowest_number; i<= highest_number; i++)
     {
       int steps = collatz(i, max_steps);
-           if (steps > max_steps) {    // αν τα μεγιστα βηματα μικροτερα απο τα βηματα
+           if (steps > max_steps) {   
            max_steps = steps;
            current_number = i;
      }
   }
 
  }
- printf("Ο αριθμός με το μεγιστο αριθμό βημάτων μεταξυ %d και %d είναι %d με %d βήματα.\n", lowest_number, highest_number, current_number, max_steps);
+ printf("Ο αριθμός με το μέγιστο αριθμό βημάτων μεταξύ %d και %d είναι %d με %d βήματα.\n", lowest_number, highest_number, current_number, max_steps);
  }
 
